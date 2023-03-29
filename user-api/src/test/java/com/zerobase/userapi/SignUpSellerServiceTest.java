@@ -3,7 +3,9 @@ package com.zerobase.userapi;
 
 import com.zerobase.userapi.domain.SignUpForm;
 import com.zerobase.userapi.domain.model.Customer;
+import com.zerobase.userapi.domain.model.Seller;
 import com.zerobase.userapi.user.client.service.customer.SignUpCustomerService;
+import com.zerobase.userapi.user.client.service.seller.SellerService;
 import java.time.LocalDate;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +15,10 @@ import org.springframework.util.Assert;
 
 @WebAppConfiguration
 @SpringBootTest
-class SignUpCustomerServiceTest {
+class SignUpSellerServiceTest {
 
 	@Autowired
-	private SignUpCustomerService service;
+	private SellerService service;
 
 	@Test
 	void signUp() {
@@ -28,9 +30,9 @@ class SignUpCustomerServiceTest {
 			.phone("0100000000")
 			.build();
 
-		Customer c = service.signUp(form);
-		Assert.notNull(c.getId());
-		Assert.notNull(c.getCreatedAt());
+		Seller s = service.signUp(form);
+		Assert.notNull(s.getId());
+		Assert.notNull(s.getCreatedAt());
 
 	}
 }
