@@ -1,0 +1,64 @@
+
+### 회원가입 (고객)
+POST http://localhost:8081/signup/customer
+Content-Type: application/json
+
+{
+  "birth": "1996-07-08",
+  "email": "ceh201312@naver.com",
+  "name": "myname",
+  "password": "pw",
+  "phone": "01000000000"
+}
+
+### 이메일 인증 (고객)
+GET http://localhost:8081/signup/customer/verify?email=ceh201312@naver.com&code=AORUi4Rqds
+
+### 로그인 (고객)
+POST http://localhost:8081/signin/customer
+Content-Type: application/json
+
+{
+  "email": "ceh201312@naver.com",
+  "password": "pw"
+}
+
+### 회원 정보 조회 (고객)
+GET http://localhost:8081/customer/getInfo
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODAwODY2MzEsImV4cCI6MTY4MDE3MzAzMX0.CtG8a44L0G9bqvZhVa5xnTjSq5d1x3xdsVQjOYjttcc
+
+### 잔액 변경 (고객)
+POST http://localhost:8081/customer/balance
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODAwODY2MzEsImV4cCI6MTY4MDE3MzAzMX0.CtG8a44L0G9bqvZhVa5xnTjSq5d1x3xdsVQjOYjttcc
+
+{
+  "from": "server",
+  "message": "돈 충전",
+  "money": 50000
+}
+
+### 회원가입 (셀러)
+POST http://localhost:8081/signup/seller
+Content-Type: application/json
+
+{
+  "birth": "1996-07-08",
+  "email": "ceh2013123@naver.com",
+  "name": "myname1",
+  "password": "pw1",
+  "phone": "01000000000"
+}
+
+### 이메일 인증 (고객)
+GET http://localhost:8081/signup/seller/verify?email=ceh201312@naver.com&code=R3acVwNkIR
+
+### 로그인 (셀러)
+POST http://localhost:8081/signin/seller
+Content-Type: application/json
+
+{
+  "email": "ceh201312@naver.com",
+  "password": "pw"
+}
