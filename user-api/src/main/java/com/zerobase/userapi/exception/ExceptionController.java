@@ -1,5 +1,6 @@
 package com.zerobase.userapi.exception;
 
+import javax.servlet.ServletException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
