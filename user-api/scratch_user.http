@@ -45,14 +45,14 @@ Content-Type: application/json
 
 {
   "birth": "1996-07-08",
-  "email": "ceh2013123@naver.com",
+  "email": "ceh201312@naver.com",
   "name": "myname1",
   "password": "pw1",
   "phone": "01000000000"
 }
 
-### 이메일 인증 (고객)
-GET http://localhost:8081/signup/seller/verify?email=ceh201312@naver.com&code=R3acVwNkIR
+### 이메일 인증 (셀러)
+GET http://localhost:8081/signup/seller/verify?email=ceh201312@naver.com&code=lc7Gqbtbue
 
 ### 로그인 (셀러)
 POST http://localhost:8081/signin/seller
@@ -60,5 +60,10 @@ Content-Type: application/json
 
 {
   "email": "ceh201312@naver.com",
-  "password": "pw"
+  "password": "pw1"
 }
+
+### 회원 정보 조회 (고객)
+GET http://localhost:8081/seller/getInfo
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
