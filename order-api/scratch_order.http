@@ -28,3 +28,35 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
       "name": "280",
       "price": 100000
     }
+
+### 상품 수정
+PUT http://localhost:8082/seller/product
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+
+{
+  "description": "상품 설명",
+  "items": [
+    {
+      "id": 1,
+      "count": 1,
+      "name": "260",
+      "price": 100000
+    }
+  ],
+  "id": 1,
+  "name": "나이키 에어포스 한정판"
+}
+
+### 상품 아이템 수정
+PUT http://localhost:8082/seller/product/item
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+
+
+{
+  "id": 1,
+  "count": 1,
+  "name": "260",
+  "price": 100000
+}
