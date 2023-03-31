@@ -94,3 +94,22 @@ Content-Type: application/json
 GET http://localhost:8082/search/product/detail?productId=1
 Content-Type: application/json
 
+### 카트 추가
+POST http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+
+{
+  "description": "상품 설명",
+  "id": 1,
+  "items": [
+    {
+      "count": 1,
+      "id": 1,
+      "name": "270",
+      "price": 100000
+    }
+  ],
+  "name": "나이키 에어포스",
+  "sellerId": 1
+}
