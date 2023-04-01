@@ -2,7 +2,7 @@
 ### 상품 추가
 POST http://localhost:8082/seller/product
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMzUzNzE3LCJleHAiOjE2ODA0NDAxMTd9.jMjincZH2VSZ__GXAu4gmdHUSUv237lNS6e5DRRdMAw
 
 {
   "description": "상품 설명",
@@ -19,7 +19,7 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
 ### 상품 아이템 추가
 POST http://localhost:8082/seller/product/item
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMzUzNzE3LCJleHAiOjE2ODA0NDAxMTd9.jMjincZH2VSZ__GXAu4gmdHUSUv237lNS6e5DRRdMAw
 
 
     {
@@ -32,7 +32,7 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
 ### 상품 수정
 PUT http://localhost:8082/seller/product
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMzUzNzE3LCJleHAiOjE2ODA0NDAxMTd9.jMjincZH2VSZ__GXAu4gmdHUSUv237lNS6e5DRRdMAw
 
 {
   "description": "상품 설명",
@@ -51,7 +51,7 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
 ### 상품 아이템 수정
 PUT http://localhost:8082/seller/product/item
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMzUzNzE3LCJleHAiOjE2ODA0NDAxMTd9.jMjincZH2VSZ__GXAu4gmdHUSUv237lNS6e5DRRdMAw
 
 
 {
@@ -64,7 +64,7 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
 ### 상품 삭제
 DELETE http://localhost:8082/seller/product?id=1
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMzUzNzE3LCJleHAiOjE2ODA0NDAxMTd9.jMjincZH2VSZ__GXAu4gmdHUSUv237lNS6e5DRRdMAw
 
 {
   "description": "상품 설명",
@@ -97,7 +97,7 @@ Content-Type: application/json
 ### 카트 추가
 POST http://localhost:8082/customer/cart
 Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IlN1YkhlS1VSUnJlUVkrV1NPbkJrdGc9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjgwMTc5OTU0LCJleHAiOjE2ODAyNjYzNTR9.I_5Eg5le_2zgGvacPUI7JAlKJGnSZxd3AuzQlWJ_Mg8
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODAzNTM4NDgsImV4cCI6MTY4MDQ0MDI0OH0.RpH1vk8az1IwXQQgHmdx1-HjSPY1oF9dIjuopRXAiLc
 
 {
   "description": "상품 설명",
@@ -112,4 +112,36 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wS
   ],
   "name": "나이키 에어포스",
   "sellerId": 1
+}
+
+
+### 카트 조회
+GET http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODAzNTM4NDgsImV4cCI6MTY4MDQ0MDI0OH0.RpH1vk8az1IwXQQgHmdx1-HjSPY1oF9dIjuopRXAiLc
+
+### 카트 주문
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1dnl3WTg3MW0rMUxZNUVQMFBrSlhlUW4wSGVzMUV5RFdPS3JzdlRobW00PSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2ODAzNTM4NDgsImV4cCI6MTY4MDQ0MDI0OH0.RpH1vk8az1IwXQQgHmdx1-HjSPY1oF9dIjuopRXAiLc
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 100000
+        }
+      ]
+    }
+  ],
+  "messages": []
 }
